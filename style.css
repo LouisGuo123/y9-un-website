@@ -1,0 +1,126 @@
+/* @-rule */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 100;
+	src: url(font/OpenSans-Light.ttf) format('truetype');
+}
+
+/* Tags */
+body {
+    position: relative;
+    font: 15px 'Open Sans', sans-serif;
+    background-color:#E0E0E0;
+    z-index: 0;
+}
+
+div p {
+    position: relative;
+    text-indent: 7%;
+}
+
+input {
+    font: 15px 'Open Sans', sans-serif;
+    padding: 0.5%
+}
+
+button {
+    background-color: #B0B0B0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 18px 'Open Sans', sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #A0A0A0;
+}
+
+/* IDs */
+#content {
+    position: relative;
+    margin: auto;
+    width: 65%;
+    font-size: 20px;
+    background-color: white;
+    display: none;
+}
+
+#inner-content2 {
+    position: relative;
+    display: none;
+}
+
+#scrollPercent {
+    position: fixed;
+    top: 0;
+    left: 2%;
+    padding: 0.5%;
+    background-color: white;
+    font-size: 24px;
+    border: 2px solid black;
+}
+
+/* Classes */
+.nav {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    padding:0.5em;
+    box-sizing: border-box;
+    width: 50%;
+    background-color:#B0B0B0;
+    color: white;
+    float: left;
+}
+
+.activated {
+    position: relative;
+    background-color: white;
+    color: black;
+}
+
+.inner-content {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px 5%;
+}
+
+.img {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.img2 {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(127,255,212,1) 0%, rgba(110,255,239,1) 52%, rgba(0,214,249,1) 100%);
+    width: 0%;
+    height: 85%;
+}
